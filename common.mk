@@ -99,6 +99,7 @@ PRODUCT_PACKAGES += \
 
 # Common init scripts
 PRODUCT_PACKAGES += \
+    init.adaptive_charging.rc \
     init.device_extras.rc \
     init.qcom.rc \
     init.recovery.qcom.rc \
