@@ -43,6 +43,9 @@
     <!-- Whether device has warp charging support -->    
     <bool name="config_hasDashCharger">true</bool>
 
+    <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
+    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/battery/fastchg_status</string>
+
     <!-- Default state for LiveDisplay -->
     <bool name="config_liveDisplayAvailable">false</bool>
 
