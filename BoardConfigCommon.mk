@@ -57,6 +57,7 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := proton
 KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton/bin
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
+BUILD_BROKEN_DUP_RULES := true
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
